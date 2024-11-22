@@ -25,6 +25,7 @@
   --color-primary-3: #0b0b0b;
   --color-primary-4: #090909;
   --color-primary-5: #050505;
+  --color-primary-6: #fff;
   --color-secondary: #004aad;
   --color-secondary-hover: #004aad;
   --color-third: #4409a3;
@@ -454,7 +455,7 @@ section {
   .navbar .active:focus,
   .navbar li:hover > a {
     color: #fff;
-    background: var(--color-primary-3);
+    background: var(--color-secondary);
     padding: 15px 13px;
     border-radius: 10px;
   }
@@ -2566,7 +2567,7 @@ section {
   padding: 14px 40px;
   border-radius: 10px;
   transition: 0.3s;
-  color: var(--color-primary-3);
+  color: var(--color-primary-6);
   background: var(--color-secondary);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
 }
@@ -2804,7 +2805,7 @@ section {
   padding: 14px 30px;
   border-radius: 10px;
   transition: 0.3s;
-  color: var(--color-primary-3);
+  color: var(--color-primary-6);
   background: var(--color-secondary);
   border: 2px solid var(--color-secondary);
 }

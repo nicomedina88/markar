@@ -46,7 +46,7 @@
   padding: 14px 40px;
   border-radius: 50px;
   transition: 0.3s;
-  color: var(--color-primary-3);
+  color: var(--color-primary-6);
   background: var(--color-secondary);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
 }
@@ -113,7 +113,7 @@
 .about-3 .box-text:hover {
   background-color: #fff;
   box-shadow: 13px 13px 51px 0px
-    rgba(9.999999999999991, 50.99999999999997, 80, 0.16);
+    rgba(32, 37, 41, 0.16);
 }
 
 .about-3 .box-text .box-area {
@@ -3030,8 +3030,8 @@ form.whatsapp-form {
   font-weight: 600;
   padding: 8px 20px;
   margin: 0 0 15px 0;
-  background: #89ff3b27;
-  color: var(--color-secondary);
+  background: #75757727;
+  color: var(--color-primary-6);
   display: inline-block;
   border-radius: 50px;
 }
@@ -3060,7 +3060,7 @@ form.whatsapp-form {
 
 .about-append .content .read-more {
   background: var(--color-secondary);
-  color: var(--color-primary-3);
+  color: var(--color-primary-6);
   font-family: var(--font-1);
   font-weight: 500;
   font-size: 16px;
@@ -4064,7 +4064,7 @@ form.whatsapp-form {
   padding: 15px 50px;
   border-radius: 10px;
   transition: 0.3s;
-  color: var(--color-primary-3);
+  color: var(--color-primary-6);
   background: var(--color-secondary);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
 }
