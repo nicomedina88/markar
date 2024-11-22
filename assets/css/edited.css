@@ -135,7 +135,7 @@
   font-weight: 600;
   padding: 8px 20px;
   margin: 0 0 15px 0;
-  background: #89ff3b27;
+  background: var(--color-secondary);
   color: var(--color-secondary);
   display: inline-block;
   border-radius: 50px;
@@ -297,7 +297,7 @@
   font-weight: 600;
   padding: 8px 20px;
   margin: 0 0 19px 0;
-  background: #89ff3b27;
+  background: var(--color-secondary);
   color: var(--color-secondary);
   display: inline-block;
   border-radius: 50px;
@@ -1777,8 +1777,8 @@
   font-weight: 600;
   padding: 8px 20px;
   margin: 0 0 15px 0;
-  background: #89ff3b27;
-  color: var(--color-secondary);
+  background: var(--color-secondary);
+  color: var(--color-primary-6);
   display: inline-block;
   border-radius: 50px;
 }
@@ -3030,7 +3030,7 @@ form.whatsapp-form {
   font-weight: 600;
   padding: 8px 20px;
   margin: 0 0 15px 0;
-  background: #75757727;
+  background: var(--color-secondary);
   color: var(--color-primary-6);
   display: inline-block;
   border-radius: 50px;
@@ -3589,8 +3589,8 @@ form.whatsapp-form {
   font-weight: 600;
   padding: 8px 20px;
   margin: 0 0 19px 0;
-  background: #89ff3b27;
-  color: var(--color-secondary);
+  background: var(--color-secondary);
+  color: var(--color-primary-6);
   display: inline-block;
   border-radius: 50px;
 }
