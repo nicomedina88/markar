@@ -598,7 +598,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
@@ -1937,6 +1937,8 @@ progress {
   }
 }
 @media (max-width: 767.98px) {
+  
+
   .table-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
