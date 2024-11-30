@@ -4,6 +4,8 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
+
+
 document.addEventListener("DOMContentLoaded", () => {
   "use strict";
 
@@ -148,6 +150,26 @@ document.addEventListener("DOMContentLoaded", () => {
       })
     );
   }
+
+  // Selecciona el botón de scroll
+const scrollTopButton = document.querySelector('.scroll-top');
+
+// Escucha el evento de scroll
+window.addEventListener('scroll', function () {
+  if (window.scrollY > 200) {
+    // Agrega la clase 'active' cuando el usuario ha hecho scroll hacia abajo
+    scrollTopButton.classList.add('active');
+  } else {
+    // Remueve la clase 'active' cuando el usuario vuelve arriba
+    scrollTopButton.classList.remove('active');
+  }
+});
+
+// Agrega funcionalidad para volver al inicio al hacer clic
+scrollTopButton.addEventListener('click', function (e) {
+  e.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
   /**
    * Initiate Pure Counter

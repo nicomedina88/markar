@@ -54,16 +54,20 @@ body {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  width: 0.5rem;
 }
 
 ::-webkit-scrollbar-track {
-  display: none;
+  box-shadow: 0 0 .4rem rgba(0, 0, 0, 0.288) inset;
+  background-color: var(--b);
+  border-radius: 5rem;
 }
 
 ::-webkit-scrollbar-thumb {
-  display: none;
+  background-color: var(--color-secondary);
+  border-radius: 7rem;
 }
+
 
 ::selection {
   background-color: var(--color-third);
@@ -268,7 +272,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: rgba(248, 90, 64, 0.8);
+  background: #004aad;
   color: #fff;
 }
 
