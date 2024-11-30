@@ -3052,7 +3052,6 @@ form.whatsapp-form {
 
 .about-append .content .clamp {
   margin-bottom: 0;
-  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   display: -webkit-box;
